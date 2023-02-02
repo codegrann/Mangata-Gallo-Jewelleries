@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+
+#header{
+    background-color: rgb(63, 136, 135);
+}
+#logo{
+    width: 50vw;
+    margin: 0 auto;
+}
+#logo img{
+    width: 60%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
