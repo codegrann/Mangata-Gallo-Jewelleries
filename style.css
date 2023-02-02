@@ -41,4 +41,27 @@ nav ul a:hover{
  background: rgb(53, 113, 88);
 }
 
-
+#promotion{
+    width: 100vw;
+    height: 55vh;
+    padding-top: 2rem;
+    background-image: url(Assets/promotion.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+#promotion *{
+    margin-left: 4rem;
+}
+#promotion p:nth-of-type(1){
+    width: 45vw;
+    font-size: 1.5vw;
+    letter-spacing: 1pt;
+    word-spacing: 1pt;
+    line-height: 1.5;
+}
+#promotion p:nth-of-type(2){
+    font-weight: 600;
+    letter-spacing: 1pt;
+    /* word-spacing: 1pt; */
+}
