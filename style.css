@@ -5,7 +5,7 @@ body{
 
 #header{
     background-color: rgb(63, 136, 135);
-    /* padding-bottom: 0.4px; */
+    padding-bottom: 0.4px;
    
 }
 #logo{
@@ -32,11 +32,13 @@ nav ul{
 nav a{
     text-decoration: none;
     color: black;
+    padding: 0.3rem;
+    transition: background 700ms;
 }
 
 nav ul a:hover{
  cursor: pointer;
- 
+ background: rgb(53, 113, 88);
 }
 
 
