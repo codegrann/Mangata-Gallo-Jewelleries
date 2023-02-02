@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* HEADER SECTION */
@@ -47,7 +48,7 @@ nav ul a:hover{
     width: 100vw;
     height: 55vh;
     padding-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     background-image: url(Assets/promotion.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,7 +73,17 @@ nav ul a:hover{
 
 /* ARTICLE PAGE */
 #articles{
+    width: 80vw;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-evenly;
+    /* justify-content: ; */
+    /* -webkit-column-gap: 1rem; */
+    column-gap: 1rem;
+}
+article{
+    border: 2px solid red;
+}
+article img{
+    width: 100%;
 }
