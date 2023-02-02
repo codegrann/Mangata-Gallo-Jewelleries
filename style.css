@@ -7,6 +7,7 @@ body{
 #header{
     background-color: rgb(63, 136, 135);
     padding-bottom: 0.4px;
+    width: 100vw;
    
 }
 #logo{
@@ -15,23 +16,30 @@ body{
 }
 #logo img{
     width: 80%;
+    margin-left: 6vw;
 }
 
 nav{
-    width: 50vw;
+    /* width: 50vw; */
     margin: 0 auto;
    
 }
 
 nav ul{
     list-style-type: none;
+    /* border: 2px solid red; */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    font-size: 1.5vw;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    font-size: 1.3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+nav li{
+    margin-left: 0.7rem;
+}
 nav a{
     text-decoration: none;
+    /* border: 2px solid red; */
     color: black;
     padding: 0.3rem;
     transition: background 700ms;
@@ -40,6 +48,7 @@ nav a{
 nav ul a:hover{
  cursor: pointer;
  background: rgb(53, 113, 88);
+ border-radius: 0.2rem;
 }
 
 /* MAIN SECTION */
@@ -47,11 +56,32 @@ main{
     display: grid;
     grid-template-rows: auto;
 }
+/* #decor{ */
+    /* position: absolute; */
+    /* background: transparent; */
+    /* background: linear-gradient(rgb(104, 104, 225), rgb(89, 198, 89), rgb(218, 218, 77), rgb(196, 78, 78)); */
+    /* background: transparent; */
+    /* width: 3vw; */
+    /* height: inherit; */
+    /* border: 2px solid red; */
+    /* transform: rotate(10deg); */
+    /* animation: decor 8500ms infinite; */
+    /*  */
+/*  */
+/* } */
+/* @keyframes decor{ */
+   /* 0%{transform: translateX(0px);} */
+   /* 33%{transform: translateX(500px);} */
+   /* 50%{transform: translateX(1100px);} */
+   /* 66%{transform: translateX(500px);} */
+   /* 100%{transform: translateX(0px);} */
+/* } */
 
 #promotion{
     width: 100vw;
     height: 55vh;
-    padding-top: 2rem;
+    padding-top:2rem;
+    padding-bottom: 0.7rem;
     margin-bottom: 4rem;
     background-image: url(Assets/promotion.jpeg);
     background-repeat: no-repeat;
@@ -125,16 +155,16 @@ footer{
 }
 footer div{
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 0.5rem;
 }
 footer div:nth-of-type(1){
-    padding-top: 0.9rem;
+    padding-top: 1.5rem;
     grid-column: 1/3;
 }
 footer div:nth-of-type(2){
     grid-column: 3/7;
 }
 footer img{
-    width: 100%;
+    width: 70%;
 }
