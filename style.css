@@ -149,6 +149,7 @@ article:hover{
 /* FOOTER SECTION */
 
 footer{
+    width: 100vw;
     background-color: rgb(63, 48, 48);
     display: grid;
     grid-template-columns: repeat(6, 1fr);
