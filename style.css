@@ -114,3 +114,27 @@ article:hover{
     filter: blur(0);
     filter: sepia(0);
 }
+
+
+/* FOOTER SECTION */
+
+footer{
+    background-color: rgb(63, 48, 48);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+footer div{
+    display: inline-block;
+    border: 2px solid red;
+    padding: 0.5rem;
+}
+footer div:nth-of-type(1){
+    padding-top: 0.9rem;
+    grid-column: 1/3;
+}
+footer div:nth-of-type(2){
+    grid-column: 3/7;
+}
+footer img{
+    width: 100%;
+}
