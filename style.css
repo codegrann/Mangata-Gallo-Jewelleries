@@ -80,13 +80,15 @@ main{
 #promotion{
     width: 100vw;
     height: 55vh;
+    font-family: Geneva, Tahoma, sans-serif;
     padding-top:2rem;
     padding-bottom: 0.7rem;
     margin-bottom: 4rem;
     background-image: url(Assets/promotion.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Geneva, Tahoma, sans-serif;
+    /* backdrop-filter: sepia(0.3); */
+
 }
 #promotion *{
     margin-left: 4rem;
