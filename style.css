@@ -110,6 +110,7 @@ main{
 /* ARTICLE PAGE */
 #articles{
     width: 80vw;
+    border: 2px solid red;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
