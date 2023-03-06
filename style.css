@@ -113,13 +113,15 @@ main{
     border: 2px solid red;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     /* grid-template-columns: repeat(3, 1fr); */
-    /* justify-content: ; */
+    justify-content: center;
     /* -webkit-column-gap: 1rem; */
     column-gap: 1rem;
 }
 article{
     /* border: 2px solid rgb(199, 192, 192); */
+    width: 30%;
     box-shadow: 2px 2px 10px rgb(136, 118, 118), -2px -2px 10px  rgb(136, 118, 118);
     margin-bottom: 3rem;
     padding-bottom: 0.5rem;
@@ -175,6 +177,13 @@ footer img{
 
 @media(max-width:900px){
     article{
-        width: 100%;
+        width: 70%;
+        /* font-size: 30pt; */
+    }
+}
+
+@media(max-width:500px){
+    article{
+        width: 90%;
     }
 }
