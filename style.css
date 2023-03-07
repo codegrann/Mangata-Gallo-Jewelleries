@@ -180,10 +180,16 @@ footer img{
         width: 70%;
         /* font-size: 30pt; */
     }
+    nav ul{
+        font-size: 80%;
+    }
 }
 
 @media(max-width:500px){
     article{
         width: 90%;
+    }
+    nav ul{
+        justify-content: space-around;
     }
 }
