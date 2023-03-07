@@ -192,4 +192,7 @@ footer img{
     nav ul{
         justify-content: space-around;
     }
+    #promotion p:nth-of-type(1){
+        font-size: 2.5vw;
+    }
 }
