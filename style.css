@@ -196,7 +196,11 @@ footer img{
 
 @media(max-width:500px){
     article{
-        width: 90%;
+        width: 60%;
+        /* height: 450px; */
+    }
+    article img{
+        height: 50%;
     }
     nav li{
         margin-left: 0.4rem;
@@ -228,5 +232,11 @@ footer img{
     }
     footer{
         font-size: 11pt;
+    }
+}
+
+@media(max-width:320px){
+    article{
+        width: 80vw;
     }
 }
