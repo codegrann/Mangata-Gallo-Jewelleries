@@ -113,7 +113,7 @@ main{
 /* ARTICLE PAGE */
 #articles{
     width: 80vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: auto;
     display: flex;
     flex: 1 1 auto;
