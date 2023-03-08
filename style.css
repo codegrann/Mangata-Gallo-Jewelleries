@@ -197,7 +197,6 @@ footer img{
 @media(max-width:500px){
     article{
         width: 60%;
-        /* height: 450px; */
     }
     article img{
         height: 50%;
@@ -236,6 +235,9 @@ footer img{
 }
 
 @media(max-width:320px){
+    #promotion *{
+        margin-left: 1.9rem;
+    }
     article{
         width: 80vw;
     }
