@@ -182,10 +182,11 @@ footer img{
 
 @media(max-width:900px){
     #articles{
+        flex-wrap: wrap;
         width: 100vw;
     }
     article{
-        /* width: 30%; */
+        width: 40%;
         /* font-size: 30pt; */
     }
     nav ul{
