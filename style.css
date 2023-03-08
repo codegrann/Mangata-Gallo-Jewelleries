@@ -1,3 +1,6 @@
+*{
+    overflow-x: hidden;
+}
 body{
     margin: 0;
     overflow-x: hidden;
@@ -35,7 +38,7 @@ nav ul{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav li{
-    margin-left: 0.7rem;
+    margin-left: 1rem;
 }
 nav a{
     text-decoration: none;
@@ -189,12 +192,19 @@ footer img{
     article{
         width: 90%;
     }
-    nav ul{
-        justify-content: space-around;
+    nav li{
+        margin-left: 0.4rem;
     }
+    nav ul{
+        /* justify-content: space-around; */
+    }
+    nav a{
+        padding: 0.3rem;
+    }
+
     #promotion{
         padding-left: 0;
-        margin-left: -1rem;
+        /* margin-left: -1rem; */
     }
     #promotion p:nth-of-type(1){
         font-size: 3.4vw;
