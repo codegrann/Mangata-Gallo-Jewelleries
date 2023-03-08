@@ -195,7 +195,8 @@ footer img{
     nav li{
         margin-left: 0.4rem;
     }
-    nav ul{
+    nav{
+        margin-left: -3rem;
         /* justify-content: space-around; */
     }
     nav a{
